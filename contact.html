@@ -225,7 +225,7 @@
           <li class="inline-flex items-center">
             <a
               href="./index.html"
-              class="inline-flex items-center text-[0.875rem] font-regular text-gray-700 hover:text-gray-800 dark:text-gray-100 dark:hover:text-white"
+              class="inline-flex items-center text-[0.875rem] font-regular text-gray-700 hover:text-gray-800 dark:text-gray-500 dark:hover:text-black"
             >
               <svg
                 class="mr-2 w-4 h-4"
@@ -272,13 +272,15 @@
 
       <div class="mx-auto px-0 p-6 dark:bg-gray-800">
         <!-- table -->
-        <section class="flex flex-wrap my-1 bg-white dark:text-white">
+        <section class="flex flex-wrap my-1 bg-white dark:text-black">
           <!-- case 1 -->
-          <article class="w-full md:w-1/2 md:border-r p-1 md:p-4">
+          <article class="w-full md:w-1/2 md:border-r p-1 p-4">
             <div class="flex items-center mb-8">
               <div class="title__tourney text-xl mt-4 md:ml-20">
                 <h3>Nous contacter</h3>
-                <h5 class="title__tourney mt-4 text-purple-600 text-2xl">
+                <h5
+                  class="title__tourney mt-4 text-purple-600 text-2xl dark:text-purple-600"
+                >
                   Hoppy Urban Brew
                 </h5>
                 <p class="font-[poppins] mt-1">
@@ -324,48 +326,54 @@
             class="bg-gray-100 w-full border-b md:w-1/2 md:border-r-0 md:border-b-0 lg:w-1/2 lg:border-b-0 p-8"
           >
             <div class="flex items-center mb-2 object-cover">
+              <!--Crédit Colin Bricout-->
               <img
                 src="./img/HUB-anim.gif"
                 class="md:w-3/4 w-full"
                 alt="animation gif transformation de la brasserie"
               />
             </div>
-            <p class="leading-loose text-black dark:text-white text-md">
+            <p class="leading-loose text-black text-md">
               Hoppy Urban Brew, Roubaix
             </p>
           </div>
           <!-- case 3 -->
           <div
-            class="bg-[white] w-lg border-t md:w-1/2 lg:w-1/2 lg:border-r lg:border-b-0 p-8"
+            class="bg-[white] w-lg border-t md:w-1/2 lg:w-1/2 lg:border-r lg:border-b-0 md:p-8 p-4"
           >
             <div class="flex items-center mb-8">
-              <div class="title__tourney md:text-xl md:mt-4 md:ml-16">
+              <div class="title__tourney md:text-xl text-sm md:mt-4 md:ml-16">
                 <h3>Livraisons & Retraits à la boutique</h3>
-                <h5 class="title__beers mt-4 md:text-lg">Particuliers</h5>
+                <h5 class="title__beers mt-4 md:text-lg text-sm">
+                  Particuliers
+                </h5>
                 <p class="font-[poppins] mt-1">
-                  Du mercredi au samedi aux heures d'ouverture
+                  Du mercredi au samedi,
+                  <br />
                 </p>
-                <h5 class="title__beers mt-4 md:text-lg">Pros</h5>
+                <h5 class="title__beers mt-4 md:text-lg text-sm">Pros</h5>
                 <p class="font-[poppins] mt-1">
                   Sur rdv : du mercredi au samedi
                 </p>
               </div>
             </div>
             <div class="flex items-center mb-8">
-              <div class="title__tourney md:text-xl mt-4 md:ml-16">
+              <div class="title__tourney md:text-xl text-sm mt-4 md:ml-16">
                 <h3>Venir à la brasserie</h3>
-                <h5 class="title__beers mt-4 md:text-lg">Métro</h5>
+                <h5 class="title__beers mt-4 md:text-lg text-sm">Métro</h5>
                 <p class="font-[poppins] mt-1">
-                  Arrêt Eurotéléport (Roubaix), 5mn à pieds
+                  Arrêt Eurotéléport (Roubaix),
+                  <br />
+                  5mn à pieds
                 </p>
-                <h5 class="title__beers mt-4 md:text-lg">Voiture</h5>
+                <h5 class="title__beers mt-4 md:text-lg text-sm">Voiture</h5>
                 <p class="font-[poppins] mt-1">Direction Roubaix Centre</p>
               </div>
             </div>
             <div>
-              <section class="bg-gray-100">
+              <section class="bg-gray-100 flex justify-center">
                 <iframe
-                  class="m-auto w-96 align-items-center md:w-full"
+                  class="m-auto w-full"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.595998533367!2d3.1697907157400915!3d50.69032367950919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c329b8d9827f59%3A0x35c9b130d51bc668!2sBrasserie%20HUB%20-%20Hoppy%20Urban%20Brew!5e0!3m2!1sfr!2sfr!4v1651766728017!5m2!1sfr!2sfr"
                   width="1490"
                   height="350"
@@ -530,7 +538,7 @@
                   value="Contact Form Submission"
                 />
               </fieldset>
-              <input type="submit" value="Submit" />
+              <input type="submit" value="Envoyer" class="dark:text-black" />
             </form>
           </div>
         </section>
