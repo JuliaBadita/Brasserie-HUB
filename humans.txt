@@ -12,5 +12,5 @@
     < >  <  >
 # TECHNOLOGY COLOPHON
 
-   Tailwind CSS
+   Tailwind CSS, Javascript
 
